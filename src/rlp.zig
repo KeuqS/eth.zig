@@ -793,4 +793,3 @@ test "encode-decode roundtrip [32]u8" {
         try std.testing.expectEqual(@as(u8, @intCast(i)), decoded.value[i]);
     }
 }
-
